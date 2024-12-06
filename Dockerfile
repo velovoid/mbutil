@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . .
 
 # Define the entry point (optional, if the app is a script)
-CMD ["python3", "mb-util.py"]
+CMD ["mb-util"]
